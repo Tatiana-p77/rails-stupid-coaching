@@ -13,3 +13,46 @@
  *= require_tree .
  *= require_self
  */
+/* application.css */
+
+/* Style général de la page */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+/* Style du titre principal */
+h1 {
+  color: #333;
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* Style du paragraphe */
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 20px;
+  text-align: center;
+}
+
+a {
+  display: inline-block;  /* L'élément est inline-block, donc nous pouvons le centrer avec text-align sur le parent */
+  color: #fff;
+  background-color: #007BFF;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin: 20px auto;  /* Centrer horizontalement s'il devient un élément block */
+}
+
+/* Si le bouton est dans une div, par exemple, cette règle le centrera horizontalement */
+div {
+  text-align: center;
+}
+
+a:hover {
+  background-color: #0056b3;
+}
